@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( with_blur )
+find_package( OpenCV REQUIRED )
+find_library(PTHREAD_LIBRARY pthread)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( with_blur with_blur.cpp )
+target_link_libraries( with_blur ${OpenCV_LIBS} ${PTHREAD_LIBRARY})

@@ -1,0 +1,3 @@
+/home/igor/eltex_project_opencv/2/CMakeFiles/rebuild_cache.dir
+/home/igor/eltex_project_opencv/2/CMakeFiles/edit_cache.dir
+/home/igor/eltex_project_opencv/2/CMakeFiles/with_blur.dir
